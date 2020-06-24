@@ -15,6 +15,7 @@ public class Crisis {
     @ColumnInfo(name="crisisCode")
     private String crisisCode;
     private String crisisName;
+    private String state;
     private CrisisCategory crisisCategory;
     private String description;
 
@@ -28,6 +29,10 @@ public class Crisis {
 
     public void setCrisisCategory(CrisisCategory crisisCategory) {
         this.crisisCategory = crisisCategory;
+    }
+
+    public void setState (String state) {
+        this.state = state;
     }
 
     public void setDescription(String description) {
@@ -48,6 +53,10 @@ public class Crisis {
 
     public String getDescription() {
         return description;
+    }
+
+    public String getState() {
+        return state;
     }
 }
 
