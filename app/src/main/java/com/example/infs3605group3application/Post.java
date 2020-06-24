@@ -1,21 +1,27 @@
 package com.example.infs3605group3application;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 
-@Entity
+@Entity(foreignKeys = {
+        @ForeignKey(entity = Author.class,
+                parentColumns = "authorId",
+                childColumns = "authorId",
+                onDelete = ForeignKey.NO_ACTION),
+        @ForeignKey(entity = Crisis.class,
+                parentColumns = "crisisCode",
+                childColumns = "crisisCode",
+                onDelete = ForeignKey.NO_ACTION)})
 public class Post {
     @PrimaryKey
+    @ColumnInfo(name="postNumber")
     private int postNumber;
-
-    //TODO find out how to link to Author table @ForeignKey
     private Author authorId;
     private int pubDate;
     private String title;
     private String messageContent;
-
-    //TODO find out how to link to crisisCode table @ForeignKey
     private Crisis crisisCode;
     private String urgency;
 

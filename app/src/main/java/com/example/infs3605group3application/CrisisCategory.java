@@ -1,11 +1,13 @@
 package com.example.infs3605group3application;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity
 public class CrisisCategory {
     @PrimaryKey
+    @ColumnInfo(name="crisisCategory")
     private String crisisCategory;
     private String description;
 
