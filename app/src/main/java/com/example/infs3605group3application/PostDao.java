@@ -10,7 +10,7 @@ import java.util.List;
 
 @Dao
 public interface PostDao {
-    @Query("SELECT * FROM post ORDER BY date DESC") //replace date with whichever relevant sorting mechanism is used
+    @Query("SELECT * FROM post ORDER BY pubDate DESC")
     List<Post> getAll();
 
     //@Query("SELECT * FROM post WHERE ")) <------ start creating relevant queries here
