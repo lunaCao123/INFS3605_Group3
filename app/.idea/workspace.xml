@@ -189,21 +189,33 @@
       <option name="project" value="LOCAL" />
       <updated>1593586422810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Manifest Changes">
+      <created>1593586509604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593586509604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Posting Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Posting Pages" />
+    <MESSAGE value="Manifest Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manifest Changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1593586097806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593586097806" />
-    <state x="337" y="114" key="CommitChangelistDialog2" timestamp="1593586492214">
+    <state x="805" y="350" key="AndroidCreateXmlResourceDialog" timestamp="1593586722261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593586492214" />
+    <state x="805" y="350" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593586722261" />
+    <state x="337" y="114" key="CommitChangelistDialog2" timestamp="1593586509229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593586509229" />
   </component>
 </project>
