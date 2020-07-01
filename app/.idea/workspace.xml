@@ -39,12 +39,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1293" />
-    <option name="y" value="23" />
-    <option name="width" value="1257" />
-    <option name="height" value="1060" />
-  </component>
   <component name="ProjectId" id="1e4fKvV3GdaM2VeWtNizjJkYMEM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -204,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593586761622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bug">
+      <created>1593587025355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593587025355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,9 +223,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="350" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593586722261" />
-    <state x="337" y="114" key="CommitChangelistDialog2" timestamp="1593586509229">
+    <state x="337" y="114" key="CommitChangelistDialog2" timestamp="1593587024973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593586509229" />
+    <state x="337" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593587024973" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593587027442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593587027442" />
   </component>
 </project>
