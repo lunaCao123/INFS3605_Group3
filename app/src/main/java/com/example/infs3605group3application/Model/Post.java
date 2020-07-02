@@ -1,4 +1,4 @@
-package com.example.infs3605group3application;
+package com.example.infs3605group3application.Model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
