@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../INFS3605 Group 3 Application.iml" filepath="$PROJECT_DIR$/../INFS3605 Group 3 Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1067305125/INFS3605_Group3-INFS3605_Group_3_Application.iml" filepath="$PROJECT_DIR$/.idea/modules/1067305125/INFS3605_Group3-INFS3605_Group_3_Application.iml" group="INFS3605_Group_3_Application" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-15348017/INFS3605_Group_3_Application.iml" filepath="$PROJECT_DIR$/.idea/modules/-15348017/INFS3605_Group_3_Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/INFS3605_Group_3_Application.app.iml" filepath="$PROJECT_DIR$/.idea/modules/INFS3605_Group_3_Application.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="INFS3605 Group 3 Application/app" />
     </modules>
   </component>
 </project>
