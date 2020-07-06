@@ -7,190 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Contact_Details.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/MakePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_shape.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_details.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/make_post.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/schemas/com.example.nyt.database.AppDatabase/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/schemas/com.example.nyt.database.AppDatabase/1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/androidTest/java/com/example/nyt/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/androidTest/java/com/example/nyt/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/ArticleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/ArticleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/BookAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/BookAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/FakeAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/FakeAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/FakeDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/FakeDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/activities/ArticleDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/activities/ArticleDetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/activities/BookDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/activities/BookDetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/database/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/database/AppDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/database/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/database/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/fragments/ArticleRecyclerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/fragments/ArticleRecyclerFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/fragments/BookRecyclerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/fragments/BookRecyclerFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/fragments/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/fragments/ProfileFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/BestsellerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/BestsellerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/BestsellerListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/BestsellerListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/TopStoriesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/java/com/example/nyt/model/TopStoriesResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article1_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article1_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article2_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article2_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article3_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article3_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article4_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article4_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article5_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article5_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article6_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/article6_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_bookmark_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_bookmark_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_bookmark_border_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_bookmark_border_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_share_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/ic_share_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/news_headline_photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/drawable/news_headline_photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/activity_article_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/activity_article_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/activity_book_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/activity_book_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/article.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/article.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/book.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/fragment_article_recycler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/fragment_article_recycler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/fragment_book_recycler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/fragment_book_recycler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/secrets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/secrets.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/test/java/com/example/nyt/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/app/src/test/java/com/example/nyt/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/NYT/week8Lab/NYT-master/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_common_2_2_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_migration_2_2_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_2_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_2_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_testing_2_2_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_room_room_testing_2_2_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/AppDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Crisis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/CrisisCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Model/CrisisCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/Model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/infs3605group3application/PostDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottomnav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottomnav.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +78,7 @@
       </method>
     </configuration>
     <configuration name="INFS3605 Group 3 Application-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="INFS3605 Group 3 Application-app" />
+      <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -377,6 +194,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="429" y="61" key="#INFS3605_Group_3_Application-app" timestamp="1594022732728">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="429" y="61" key="#INFS3605_Group_3_Application-app/0.23.1440.797@0.23.1440.797" timestamp="1594022732728" />
     <state x="477" y="252" key="#PSD" timestamp="1593668551705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -405,9 +226,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593669250785" />
-    <state x="394" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1593587160228">
+    <state x="394" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1594022595358">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1593587160228" />
+    <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594022595358" />
   </component>
 </project>
