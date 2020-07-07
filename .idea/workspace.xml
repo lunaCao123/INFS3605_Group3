@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,10 +212,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="378" width="505" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593670750829" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593670943129">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="518" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594086949024">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593670943129" />
+    <state x="518" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1594086949024" />
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1593669879364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,13 +225,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593671066002" />
+    <state x="579" y="275" key="AndroidCreateXmlResourceDialog" timestamp="1594086469556">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="579" y="275" key="AndroidCreateXmlResourceDialog/0.23.1440.797@0.23.1440.797" timestamp="1594086469556" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593669250785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593669250785" />
-    <state x="394" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1594084803573">
+    <state x="394" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1594086362377">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594084803573" />
+    <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594086362377" />
   </component>
 </project>
