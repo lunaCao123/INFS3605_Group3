@@ -5,8 +5,15 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="" />
+    <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +22,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -54,11 +62,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.infs3605group3application.Fragments" />
     </key>
@@ -66,7 +77,7 @@
       <recent name="C:\Users\Admin\Desktop\INFS3605_Group3 copy\app\src\main\res\layout" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.INFS3605_Group3-app">
+  <component name="RunManager" selected="Android App.INFS3605 Group 3 Application-app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -74,8 +85,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="INFS3605 Group 3 Application-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+    <configuration name="INFS3605 Group 3 Application-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="INFS3605 Group 3 Application-app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -242,13 +253,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="326" y="95" key="#Gradle" timestamp="1594169735293">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="326" y="95" key="#Gradle/0.0.1440.900@0.0.1440.900" timestamp="1594169735293" />
     <state x="429" y="61" key="#INFS3605_Group_3_Application-app" timestamp="1594022732728">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="429" y="61" key="#INFS3605_Group_3_Application-app/0.23.1440.797@0.23.1440.797" timestamp="1594022732728" />
-    <state x="477" y="252" key="#PSD" timestamp="1593668551705">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="358" y="218" key="#PSD" timestamp="1594169756549">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="358" y="218" key="#PSD/0.0.1440.900@0.0.1440.900" timestamp="1594169756549" />
     <state x="477" y="252" key="#PSD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593668551705" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1593670238113">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -279,9 +295,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593669250785" />
-    <state x="394" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1594086362377">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1358" height="183" key="GridCell.Tab.0.bottom" timestamp="1594169918736">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1358" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594169918736" />
+    <state width="1358" height="183" key="GridCell.Tab.0.center" timestamp="1594169918735">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1358" height="183" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594169918735" />
+    <state width="1358" height="183" key="GridCell.Tab.0.left" timestamp="1594169918734">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1358" height="183" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594169918734" />
+    <state width="1358" height="183" key="GridCell.Tab.0.right" timestamp="1594169918735">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1358" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594169918735" />
+    <state x="394" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594168743681">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="394" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1594168743681" />
     <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594086362377" />
   </component>
 </project>
