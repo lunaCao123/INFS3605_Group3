@@ -59,6 +59,7 @@ public class MakePost extends AppCompatActivity {
     private void writeNewPost(int postNumber, Author authorId, int pubDate, String title, String messageContent, Crisis crisisCode, String urgency) {
         DatabaseReference mDatabase;
         mDatabase = FirebaseDatabase.getInstance().getReference();
+
         String key = mDatabase.child("posts").push().getKey();
         Post post = new Post(postNumber, authorId, pubDate, title, messageContent, crisisCode, urgency);
         Map<String, Object> postValues = post.toMap();

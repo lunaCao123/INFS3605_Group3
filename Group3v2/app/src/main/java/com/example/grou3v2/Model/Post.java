@@ -5,6 +5,11 @@ import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 
+import com.google.firebase.database.Exclude;
+
+import java.util.HashMap;
+import java.util.Map;
+
 @Entity(foreignKeys = {
         @ForeignKey(entity = Author.class,
                 parentColumns = "authorId",
@@ -91,5 +96,19 @@ public class Post {
 
     public String getUrgency() {
         return urgency;
+    }
+
+    @Exclude
+    public Map<String, Object> toMap() {
+        HashMap<String, Object> result = new HashMap<>();
+        result.put("postNumber", postNumber);
+        result.put("authorId", authorId);
+        result.put("title", title);
+        result.put("pubDate", pubDate);
+        result.put("messageContent", messageContent);
+        result.put("crisisCode", crisisCode);
+        result.put("urgency", urgency);
+
+        return result;
     }
 }
