@@ -10,29 +10,20 @@ import com.google.firebase.database.Exclude;
 import java.util.HashMap;
 import java.util.Map;
 
-@Entity(foreignKeys = {
-        @ForeignKey(entity = Author.class,
-                parentColumns = "authorId",
-                childColumns = "authorId",
-                onDelete = ForeignKey.NO_ACTION),
-        @ForeignKey(entity = Crisis.class,
-                parentColumns = "crisisCode",
-                childColumns = "crisisCode",
-                onDelete = ForeignKey.NO_ACTION)})
 public class Post {
 
     private int postNumber;
-    private Author authorId;
+    private String authorId;
     private int pubDate;
     private String title;
     private String messageContent;
-    private Crisis crisisCode;
+    private String crisisCode;
     private String urgency;
 
     public Post() {
     }
 
-    public Post(int postNumber, Author authorId, int pubDate, String title, String messageContent, Crisis crisisCode, String urgency) {
+    public Post(int postNumber, String authorId, int pubDate, String title, String messageContent, String crisisCode, String urgency) {
         this.postNumber = postNumber;
         this.authorId = authorId;
         this.pubDate = pubDate;
@@ -46,7 +37,7 @@ public class Post {
         this.postNumber = postNumber;
     }
 
-    public void setAuthorId(Author authorId) {
+    public void setAuthorId(String authorId) {
         this.authorId = authorId;
     }
 
@@ -62,7 +53,7 @@ public class Post {
         this.messageContent = messageContent;
     }
 
-    public void setCrisisCode(Crisis crisisCode) {
+    public void setCrisisCode(String crisisCode) {
         this.crisisCode = crisisCode;
     }
 
@@ -74,7 +65,7 @@ public class Post {
         return postNumber;
     }
 
-    public Author getAuthorId() {
+    public String getAuthorId() {
         return authorId;
     }
 
@@ -90,7 +81,7 @@ public class Post {
         return messageContent;
     }
 
-    public Crisis getCrisisCode() {
+    public String getCrisisCode() {
         return crisisCode;
     }
 

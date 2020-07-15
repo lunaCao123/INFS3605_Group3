@@ -55,8 +55,7 @@ public class MakePost extends AppCompatActivity {
 
     }
 
-    //TODO: revise this method
-    private void writeNewPost(int postNumber, Author authorId, int pubDate, String title, String messageContent, Crisis crisisCode, String urgency) {
+    private void writeNewPost(int postNumber, String authorId, int pubDate, String title, String messageContent, String crisisCode, String urgency) {
         DatabaseReference mDatabase;
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
@@ -67,9 +66,14 @@ public class MakePost extends AppCompatActivity {
         Map<String, Object> childUpdates = new HashMap<>();
         childUpdates.put("/posts" + key, postValues);
         childUpdates.put("/author-posts" + authorId + "/" + key, postValues);
+        childUpdates.put("/crisis-posts" + crisisCode + "/" + key, postValues);
 
         mDatabase.updateChildren(childUpdates);
     }
+
+    //TODO: write onCLick method for post writing page
+    //@Override
+    //public void onClick()
 
     @Override
     protected void onActivityResult (int requestCode, int resultCode, Intent data){
@@ -94,7 +98,6 @@ public class MakePost extends AppCompatActivity {
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, crisistype);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         CrisisType.setAdapter(dataAdapter);
-
     }
 
     public void addItemsPostType(){

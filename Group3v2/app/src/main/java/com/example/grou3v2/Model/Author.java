@@ -4,10 +4,7 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity
 public class Author {
-    @PrimaryKey
-    @ColumnInfo(name="authorId")
     private int authorId;
     private String firstName;
     private String lastName;

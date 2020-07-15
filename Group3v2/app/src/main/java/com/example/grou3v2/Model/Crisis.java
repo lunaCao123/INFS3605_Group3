@@ -4,7 +4,7 @@ public class Crisis {
     private String crisisCode;
     private String crisisName;
     private String state;
-    private CrisisCategory crisisCategory;
+    private String crisisCategory;
     private String description;
 
     public void setCrisisCode(String crisisCode) {
@@ -15,7 +15,7 @@ public class Crisis {
         this.crisisName = crisisName;
     }
 
-    public void setCrisisCategory(CrisisCategory crisisCategory) {
+    public void setCrisisCategory(String crisisCategory) {
         this.crisisCategory = crisisCategory;
     }
 
@@ -35,7 +35,7 @@ public class Crisis {
         return crisisName;
     }
 
-    public CrisisCategory getCrisisCategory() {
+    public String getCrisisCategory() {
         return crisisCategory;
     }
 

@@ -39,7 +39,7 @@ public class NewsFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        recyclerView = (RecyclerView) View.findViewById(R.id.recyclerView);
+        recyclerView = (RecyclerView) getView().findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager( new LinearLayoutManager(c));
         list = new ArrayList<Post>();
 

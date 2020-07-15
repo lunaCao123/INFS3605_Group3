@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO: revise this component
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
-        myRef.setValue("Hello, World!");
+        myRef.setValue("Hello, Joanna!");
 
         setContentView(R.layout.activity_main);
 
