@@ -30,7 +30,10 @@ public class MakePost extends AppCompatActivity {
     private Button ChooseFiles;
     private Button Post;
     private TextView FileName;
+    private Button makePostButton;
     private static final int PICKFILE_RESULT_CODE = 1;
+
+    //TODO - change this page to match the Post class format (it currently doesnt)
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -53,6 +56,13 @@ public class MakePost extends AppCompatActivity {
             }
         });
 
+        makePostButton = new Button(this);
+        makePostButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                writeNewPost(1, "author", "pubDate", Title, Message, "crisisCode", "urgency");
+            }
+        });
     }
 
     private void writeNewPost(int postNumber, String authorId, int pubDate, String title, String messageContent, String crisisCode, String urgency) {
@@ -71,15 +81,13 @@ public class MakePost extends AppCompatActivity {
         mDatabase.updateChildren(childUpdates);
     }
 
-    //TODO: write onCLick method for post writing page
-    //@Override
-    //public void onClick()
 
     @Override
-    protected void onActivityResult (int requestCode, int resultCode, Intent data){
-        switch(requestCode){
+    protected void onActivityResult (int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
             case PICKFILE_RESULT_CODE:
-                if(resultCode==RESULT_OK){
+                if (resultCode == RESULT_OK) {
                     String FilePath = data.getData().getPath();
                     FileName.setText(FilePath + " attached");
                 }
