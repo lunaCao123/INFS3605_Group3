@@ -34,7 +34,6 @@ public class MakePost extends AppCompatActivity {
     private static final int PICKFILE_RESULT_CODE = 1;
 
     //TODO - change this page to match the Post class format (it currently doesnt)
-
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -60,7 +59,7 @@ public class MakePost extends AppCompatActivity {
         makePostButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                writeNewPost(1, "author", "pubDate", Title, Message, "crisisCode", "urgency");
+                writeNewPost(1, "author", 1, "title", "message", "crisisCode", "urgency");
             }
         });
     }
