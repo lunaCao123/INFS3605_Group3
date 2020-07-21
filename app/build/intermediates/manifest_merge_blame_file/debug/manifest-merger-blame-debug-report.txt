@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.infs3605group3application"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:5:5-22:19
+17        android:allowBackup="true"
+17-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/3bcefbf68b445b8f42357993feaeb223/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:11:9-40
+27        <activity android:name="com.example.infs3605group3application.Contact_Details" />
+27-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:12:9-53
+27-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:12:19-50
+28        <activity android:name="com.example.infs3605group3application.Contact" />
+28-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:13:9-45
+28-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:13:19-42
+29        <activity android:name="com.example.infs3605group3application.MakePost" />
+29-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:14:9-46
+29-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:14:19-43
+30        <activity android:name="com.example.infs3605group3application.MainActivity" >
+30-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:15:9-21:20
+30-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:15:19-47
+31            <intent-filter>
+31-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:16:13-20:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:17:17-69
+32-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:17:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:19:17-77
+34-->/Users/nafsi.shah/AndroidStudioProjects/Git/INFS3605_Group3/app/src/main/AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:29:9-35:19
+39            android:name="com.google.firebase.components.ComponentDiscoveryService"
+39-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:30:13-84
+40            android:directBootAware="true"
+40-->[com.google.firebase:firebase-common:19.3.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/60ed9f3fa02050d2d69705c7b92f9b32/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+41            android:exported="false" >
+41-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:31:13-37
+42            <meta-data
+42-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:32:13-34:85
+43                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+43-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:33:17-109
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-database:19.3.1] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/b7d3a1cf75cd00cb1b98cf1991b3a60c/jetified-firebase-database-19.3.1/AndroidManifest.xml:34:17-82
+45        </service>
+46        <service
+46-->[androidx.room:room-runtime:2.2.5] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/1e2e897bdf0710e30da97e5c14329882/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+47            android:name="androidx.room.MultiInstanceInvalidationService"
+47-->[androidx.room:room-runtime:2.2.5] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/1e2e897bdf0710e30da97e5c14329882/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+48            android:directBootAware="true"
+48-->[androidx.room:room-runtime:2.2.5] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/1e2e897bdf0710e30da97e5c14329882/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+49            android:exported="false" />
+49-->[androidx.room:room-runtime:2.2.5] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/1e2e897bdf0710e30da97e5c14329882/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/9abc1b7d3b301a21568dc77455b30425/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/9abc1b7d3b301a21568dc77455b30425/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/9abc1b7d3b301a21568dc77455b30425/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/9abc1b7d3b301a21568dc77455b30425/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:19.3.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/60ed9f3fa02050d2d69705c7b92f9b32/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:19.3.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/60ed9f3fa02050d2d69705c7b92f9b32/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+58            android:authorities="com.example.infs3605group3application.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:19.3.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/60ed9f3fa02050d2d69705c7b92f9b32/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+59            android:exported="false"
+59-->[com.google.firebase:firebase-common:19.3.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/60ed9f3fa02050d2d69705c7b92f9b32/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+60            android:initOrder="100" />
+60-->[com.google.firebase:firebase-common:19.3.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/60ed9f3fa02050d2d69705c7b92f9b32/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/301057986d39aabebe3838f7aba08333/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/301057986d39aabebe3838f7aba08333/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/301057986d39aabebe3838f7aba08333/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+65
+66        <provider
+66-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/206533d6be77d4dc03dea239fe8aeb79/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+67            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/206533d6be77d4dc03dea239fe8aeb79/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+68            android:authorities="com.example.infs3605group3application.lifecycle-process"
+68-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/206533d6be77d4dc03dea239fe8aeb79/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+69            android:exported="false"
+69-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/206533d6be77d4dc03dea239fe8aeb79/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+70            android:multiprocess="true" />
+70-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/nafsi.shah/.gradle/caches/transforms-2/files-2.1/206533d6be77d4dc03dea239fe8aeb79/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+71    </application>
+72
+73</manifest>
