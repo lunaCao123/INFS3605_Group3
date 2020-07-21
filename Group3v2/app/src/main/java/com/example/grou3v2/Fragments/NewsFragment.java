@@ -39,7 +39,17 @@ public class NewsFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        recyclerView = (RecyclerView) getView().findViewById(R.id.recyclerView);
+
+
+
+
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_news_page, container, false);
+        recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager( new LinearLayoutManager(c));
         list = new ArrayList<Post>();
 
@@ -59,15 +69,6 @@ public class NewsFragment extends Fragment {
             public void onCancelled(@NonNull DatabaseError error) {
             }
         });
-
-
-
-    }
-
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_news_page, container, false);
         return view;
     }
 
