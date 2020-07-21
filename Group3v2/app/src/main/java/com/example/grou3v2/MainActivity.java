@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //TODO: revise this component
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
         myRef.setValue("Hello, Joanna!");
@@ -72,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (savedInstanceState == null) {
-            bottomNavigation.setSelectedItemId(R.id.news);
-            startFragmentPage(new NewsFragment());
+            bottomNavigation.setSelectedItemId(R.id.crisis);
+            startFragmentPage(new CrisisFragment());
         }
 
 
