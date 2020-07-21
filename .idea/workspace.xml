@@ -9,9 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <recent name="C:\Users\Admin\Desktop\INFS3605_Group3 copy\app\src\main\res\layout" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.INFS3605 Group 3 Application-app">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -185,7 +183,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -255,10 +253,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="326" y="95" key="#Gradle/0.0.1440.900@0.0.1440.900" timestamp="1594169735293" />
-    <state x="429" y="61" key="#INFS3605_Group_3_Application-app" timestamp="1594022732728">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="429" y="61" key="#INFS3605_Group_3_Application-app" timestamp="1595327355140">
+      <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="429" y="61" key="#INFS3605_Group_3_Application-app/0.23.1440.797@0.23.1440.797" timestamp="1594022732728" />
+    <state x="429" y="61" key="#INFS3605_Group_3_Application-app/0.23.1440.800@0.23.1440.800" timestamp="1595327355140" />
     <state x="358" y="218" key="#PSD" timestamp="1594169756549">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -310,10 +309,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1358" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594169918735" />
-    <state x="394" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1594190076346">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="394" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595328592948">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="394" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1594168743681" />
     <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594190076346" />
+    <state x="394" y="235" key="com.intellij.ide.util.TipDialog/0.23.1440.800@0.23.1440.800" timestamp="1595327259350" />
+    <state x="394" y="236" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1595328592948" />
   </component>
 </project>
