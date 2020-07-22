@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.contact:
                         startFragmentPage(new ContactFragment());
                         return true;
-                    case R.id.contact_list:
+                    case R.id.FAQs:
                         startFragmentPage(new FAQsFragment());
                         return true;
                     default:

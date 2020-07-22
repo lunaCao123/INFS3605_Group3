@@ -19,7 +19,7 @@
         android:icon="@drawable/ic_call_black_24dp"
         android:title="Contact" />
     <item
-        android:id="@+id/contact_list"
+        android:id="@+id/FAQs"
         android:icon="@drawable/ic_baseline_contact_phone_24"
-        android:title="Contact List" />
+        android:title="FAQs" />
 </menu>
