@@ -28,6 +28,7 @@ public class MakePost extends AppCompatActivity {
     private EditText Message;
     private Spinner CrisisType;
     private Spinner PostType;
+    private TextView FileName;
     private EditText Author;
     private EditText PubDate;
     private String title;
@@ -37,6 +38,7 @@ public class MakePost extends AppCompatActivity {
     private String author;
     private String pubDate;
     private Button makePostButton;
+    private Button ChooseFiles;
     private static final int PICKFILE_RESULT_CODE = 1;
 
     @Override
@@ -51,6 +53,7 @@ public class MakePost extends AppCompatActivity {
         CrisisType = findViewById(R.id.Db_CrisisType);
         crisisType = CrisisType.getSelectedItem().toString();
         addItemsPostType();
+        FileName = findViewById(R.id.Tv_FileName);
         PostType = findViewById(R.id.Db_PostType);
         postType = PostType.getSelectedItem().toString();
         Author = findViewById(R.id.Et_Author);
@@ -59,6 +62,7 @@ public class MakePost extends AppCompatActivity {
         pubDate = PubDate.getText().toString();
         Message = findViewById(R.id.Et_Message);
         message = Message.getText().toString();
+        ChooseFiles = findViewById(R.id.Bt_ChooseFiles);
 
         ChooseFiles.setOnClickListener(new View.OnClickListener() {
             @Override

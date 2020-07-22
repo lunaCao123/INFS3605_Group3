@@ -72,7 +72,8 @@
             android:layout_width="88dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp" />
+            android:layout_marginRight="20dp"
+            android:spinnerMode="dropdown" />
 
         <TextView
             android:id="@+id/post_type_label"
@@ -89,7 +90,8 @@
             android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp" />
+            android:layout_marginRight="20dp"
+            android:spinnerMode="dropdown" />
     </LinearLayout>
 
     <LinearLayout

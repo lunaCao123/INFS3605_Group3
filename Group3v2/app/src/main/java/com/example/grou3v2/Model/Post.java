@@ -20,8 +20,6 @@ public class Post {
     private String crisisCode;
     private String urgency;
 
-    public Post(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
-    }
 
     public Post(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
         this.postNumber = postNumber;

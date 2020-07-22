@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import com.example.grou3v2.R;
 
 public class ContactFragment extends Fragment {
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
