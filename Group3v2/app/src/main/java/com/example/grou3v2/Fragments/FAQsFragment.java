@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.grou3v2.R;
 
-public class ContactListFragment extends Fragment {
+public class FAQsFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +20,7 @@ public class ContactListFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.contact_details, container, false);
+        View view = inflater.inflate(R.layout.frequenly_asked_questions, container, false);
         return view;
     }
 }
