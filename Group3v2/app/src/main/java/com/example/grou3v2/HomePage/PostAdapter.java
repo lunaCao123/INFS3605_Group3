@@ -1,7 +1,6 @@
 package com.example.grou3v2.HomePage;
 
 import android.content.Context;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,7 +47,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewHolder> 
         public MyViewHolder(View itemView) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.title);
-            pubDate = (TextView) itemView.findViewById(R.id.pubDate);
+            pubDate = (TextView) itemView.findViewById(R.id.Db_pubDate);
         }
 
     }

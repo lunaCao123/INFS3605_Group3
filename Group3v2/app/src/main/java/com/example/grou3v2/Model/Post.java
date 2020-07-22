@@ -14,16 +14,16 @@ public class Post {
 
     private int postNumber;
     private String authorId;
-    private int pubDate;
+    private String pubDate;
     private String title;
     private String messageContent;
     private String crisisCode;
     private String urgency;
 
-    public Post() {
+    public Post(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
     }
 
-    public Post(int postNumber, String authorId, int pubDate, String title, String messageContent, String crisisCode, String urgency) {
+    public Post(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
         this.postNumber = postNumber;
         this.authorId = authorId;
         this.pubDate = pubDate;
@@ -41,7 +41,7 @@ public class Post {
         this.authorId = authorId;
     }
 
-    public void setPubDate(int pubDate) {
+    public void setPubDate(String pubDate) {
         this.pubDate = pubDate;
     }
 
@@ -69,7 +69,7 @@ public class Post {
         return authorId;
     }
 
-    public int getPubDate() {
+    public String getPubDate() {
         return pubDate;
     }
 
@@ -99,7 +99,6 @@ public class Post {
         result.put("messageContent", messageContent);
         result.put("crisisCode", crisisCode);
         result.put("urgency", urgency);
-
         return result;
     }
 }

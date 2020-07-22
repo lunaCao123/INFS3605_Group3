@@ -17,6 +17,7 @@ import com.example.grou3v2.Model.Post;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,24 +28,40 @@ public class MakePost extends AppCompatActivity {
     private EditText Message;
     private Spinner CrisisType;
     private Spinner PostType;
-    private Button ChooseFiles;
-    private Button Post;
-    private TextView FileName;
+    private EditText Author;
+    private EditText PubDate;
+    private String title;
+    private String message;
+    private String crisisType;
+    private String postType;
+    private String author;
+    private String pubDate;
     private Button makePostButton;
     private static final int PICKFILE_RESULT_CODE = 1;
-
-    //TODO - change this page to match the Post class format (it currently doesnt)
+    
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.make_post);
         Title = findViewById(R.id.Et_Title);
-        Message = findViewById(R.id.Et_Message);
-        ChooseFiles = findViewById(R.id.Bt_ChooseFiles);
-        Post = findViewById(R.id.Bt_Post);
-        FileName = findViewById(R.id.Tv_FileName);
+        title = Title.getText().toString();
+
         addItemsCrisisType();
+        CrisisType = findViewById(R.id.Db_CrisisType);
+        crisisType = CrisisType.getSelectedItem().toString();
+
         addItemsPostType();
+        PostType = findViewById(R.id.Db_PostType);
+        postType = PostType.getSelectedItem().toString();
+
+        Author = findViewById(R.id.Et_Author);
+        author = Author.getText().toString();
+
+        PubDate = findViewById(R.id.Db_pubDate);
+        pubDate = PubDate.getText().toString();
+
+        Message = findViewById(R.id.Et_Message);
+        message = Message.getText().toString();
 
         ChooseFiles.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,12 +76,12 @@ public class MakePost extends AppCompatActivity {
         makePostButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                writeNewPost(1, "author", 1, "title", "message", "crisisCode", "urgency");
+                writeNewPost(1, author, pubDate, title, message, crisisType, postType);
             }
         });
     }
 
-    private void writeNewPost(int postNumber, String authorId, int pubDate, String title, String messageContent, String crisisCode, String urgency) {
+    private void writeNewPost(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
         DatabaseReference mDatabase;
         mDatabase = FirebaseDatabase.getInstance().getReference();
 

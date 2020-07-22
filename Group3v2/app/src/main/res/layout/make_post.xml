@@ -21,11 +21,13 @@
         android:background="#666666"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"/>
+
     <LinearLayout
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
+        android:id="@+id/titleLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/title_label"
@@ -50,10 +52,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
+        android:id="@+id/crisisPostTypeLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/crisis_type_label"
@@ -66,33 +69,81 @@
 
         <Spinner
             android:id="@+id/Db_CrisisType"
-            android:layout_width="match_parent"
+            android:layout_width="88dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
 
         <TextView
             android:id="@+id/post_type_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:text="Post Type"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:layout_marginStart="10dp" />
+            android:textSize="14dp" />
 
         <Spinner
             android:id="@+id/Db_PostType"
-            android:layout_width="match_parent"
+            android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/authorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/authorTv"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Author"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/Et_Author"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pubDateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pubDateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Publish Date"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/Db_pubDate"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date" />
     </LinearLayout>
 
     <TextView
@@ -104,6 +155,7 @@
         android:text="Message"
         android:textColor="#000000"
         android:textSize="14dp" />
+
 
     <EditText
         android:id="@+id/Et_Message"
