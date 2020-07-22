@@ -38,28 +38,25 @@ public class MakePost extends AppCompatActivity {
     private String pubDate;
     private Button makePostButton;
     private static final int PICKFILE_RESULT_CODE = 1;
-    
+
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.make_post);
+
+        //Retrieve data from form
         Title = findViewById(R.id.Et_Title);
         title = Title.getText().toString();
-
         addItemsCrisisType();
         CrisisType = findViewById(R.id.Db_CrisisType);
         crisisType = CrisisType.getSelectedItem().toString();
-
         addItemsPostType();
         PostType = findViewById(R.id.Db_PostType);
         postType = PostType.getSelectedItem().toString();
-
         Author = findViewById(R.id.Et_Author);
         author = Author.getText().toString();
-
         PubDate = findViewById(R.id.Db_pubDate);
         pubDate = PubDate.getText().toString();
-
         Message = findViewById(R.id.Et_Message);
         message = Message.getText().toString();
 
@@ -72,6 +69,7 @@ public class MakePost extends AppCompatActivity {
             }
         });
 
+        //Set up listener that submits form to database
         makePostButton = new Button(this);
         makePostButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,14 +79,17 @@ public class MakePost extends AppCompatActivity {
         });
     }
 
+    //Method is used when button on page is pushed to send data to database
     private void writeNewPost(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
+        //Establish database connection
         DatabaseReference mDatabase;
         mDatabase = FirebaseDatabase.getInstance().getReference();
-
+        //put data in form ready to push to database
         String key = mDatabase.child("posts").push().getKey();
         Post post = new Post(postNumber, authorId, pubDate, title, messageContent, crisisCode, urgency);
         Map<String, Object> postValues = post.toMap();
 
+        //Add data to all relevant "children"
         Map<String, Object> childUpdates = new HashMap<>();
         childUpdates.put("/posts" + key, postValues);
         childUpdates.put("/author-posts" + authorId + "/" + key, postValues);
@@ -111,7 +112,7 @@ public class MakePost extends AppCompatActivity {
         }
     }
 
-
+    //Add data into spinner for CrisisType
     public void addItemsCrisisType(){
         CrisisType = findViewById(R.id.Db_CrisisType);
         List<String> crisistype = new ArrayList<String>();
@@ -124,6 +125,7 @@ public class MakePost extends AppCompatActivity {
         CrisisType.setAdapter(dataAdapter);
     }
 
+    //Add data into spinner for PostType
     public void addItemsPostType(){
         PostType = findViewById(R.id.Db_PostType);
         List<String> postType = new ArrayList<String>();
