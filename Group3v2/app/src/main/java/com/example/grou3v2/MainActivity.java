@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Button tester;
     private Button Contact;
 
+
     BottomNavigationView bottomNavigation;
 
     @Override

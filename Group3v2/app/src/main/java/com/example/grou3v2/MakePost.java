@@ -16,6 +16,7 @@ import com.example.grou3v2.Model.Crisis;
 import com.example.grou3v2.Model.Post;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.functions.FirebaseFunctions;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -24,6 +25,7 @@ import java.util.List;
 import java.util.Map;
 
 public class MakePost extends AppCompatActivity {
+    private FirebaseFunctions mFunctions;
     private EditText Title;
     private EditText Message;
     private Spinner CrisisType;
@@ -45,6 +47,7 @@ public class MakePost extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.make_post);
+        mFunctions = FirebaseFunctions.getInstance();
 
         //Retrieve data from form
         Title = findViewById(R.id.Et_Title);
