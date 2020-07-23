@@ -11,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Post {
-
     private int postNumber;
     private String authorId;
     private String pubDate;
@@ -19,7 +18,6 @@ public class Post {
     private String messageContent;
     private String crisisCode;
     private String urgency;
-
 
     public Post(int postNumber, String authorId, String pubDate, String title, String messageContent, String crisisCode, String urgency) {
         this.postNumber = postNumber;

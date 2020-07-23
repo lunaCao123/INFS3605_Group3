@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
+                //TODO: Get MakePost onto the menu bar
+                //TODO: get rid of Contact form from menu bar
                 switch (item.getItemId()) {
                     case R.id.login:
                         startFragmentPage(new LoginFragment());
