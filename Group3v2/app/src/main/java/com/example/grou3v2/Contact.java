@@ -48,6 +48,6 @@ public class Contact  extends AppCompatActivity {
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, crisisType);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         CrisisType.setAdapter(dataAdapter);
-
     }
+
 }

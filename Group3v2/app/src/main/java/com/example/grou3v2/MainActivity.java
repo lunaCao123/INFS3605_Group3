@@ -5,24 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 
 import com.example.grou3v2.Fragments.ContactFragment;
-import com.example.grou3v2.Fragments.ContactListFragment;
+import com.example.grou3v2.Fragments.FAQsFragment;
 import com.example.grou3v2.Fragments.CrisisFragment;
 import com.example.grou3v2.Fragments.LoginFragment;
 import com.example.grou3v2.Fragments.NewsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
     private Button tester;
@@ -61,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         startFragmentPage(new ContactFragment());
                         return true;
                     case R.id.contact_list:
-                        startFragmentPage(new ContactListFragment());
+                        startFragmentPage(new FAQsFragment());
                         return true;
                     default:
                         return false;
