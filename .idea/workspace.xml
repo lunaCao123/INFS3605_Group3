@@ -9,7 +9,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="" />
+    <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -263,6 +267,10 @@
     </state>
     <state x="358" y="218" key="#PSD/0.0.1440.900@0.0.1440.900" timestamp="1594169756549" />
     <state x="477" y="252" key="#PSD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593668551705" />
+    <state x="429" y="61" key="#app" timestamp="1595329514957">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="429" y="61" key="#app/0.23.1440.803@0.23.1440.803" timestamp="1595329514957" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1593670238113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -309,12 +317,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1358" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594169918735" />
-    <state x="394" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595328592948">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state x="394" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1595329397652">
+      <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="394" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1594168743681" />
     <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594190076346" />
-    <state x="394" y="235" key="com.intellij.ide.util.TipDialog/0.23.1440.800@0.23.1440.800" timestamp="1595327259350" />
+    <state x="394" y="235" key="com.intellij.ide.util.TipDialog/0.23.1440.800@0.23.1440.800" timestamp="1595329397652" />
     <state x="394" y="236" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1595328592948" />
   </component>
 </project>
