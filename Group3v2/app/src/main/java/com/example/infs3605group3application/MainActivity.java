@@ -1,4 +1,4 @@
-package com.example.grou3v2;
+package com.example.infs3605group3application;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,11 +9,11 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Button;
 
-import com.example.grou3v2.Fragments.ContactFragment;
-import com.example.grou3v2.Fragments.FAQsFragment;
-import com.example.grou3v2.Fragments.CrisisFragment;
-import com.example.grou3v2.Fragments.LoginFragment;
-import com.example.grou3v2.Fragments.NewsFragment;
+import com.example.infs3605group3application.fragments.ContactFragment;
+import com.example.infs3605group3application.fragments.FAQsFragment;
+import com.example.infs3605group3application.fragments.CrisisFragment;
+import com.example.infs3605group3application.fragments.LoginFragment;
+import com.example.infs3605group3application.fragments.NewsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

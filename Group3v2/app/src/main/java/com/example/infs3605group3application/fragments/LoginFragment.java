@@ -1,4 +1,4 @@
-package com.example.grou3v2.Fragments;
+package com.example.infs3605group3application.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,15 +11,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.grou3v2.Contact_Details;
-import com.example.grou3v2.MakePost;
-import com.example.grou3v2.R;
+import com.example.infs3605group3application.MakePost;
+import com.example.infs3605group3application.R;
+
 
 public class LoginFragment extends Fragment {
         private Button login;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 
     @Nullable

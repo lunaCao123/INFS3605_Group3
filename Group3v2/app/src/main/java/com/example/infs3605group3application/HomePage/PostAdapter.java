@@ -1,4 +1,4 @@
-package com.example.grou3v2.HomePage;
+package com.example.infs3605group3application.HomePage;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.grou3v2.Model.Post;
-import com.example.grou3v2.R;
+import com.example.infs3605group3application.Model.Post;
+
+import com.example.infs3605group3application.R;
 
 import java.util.ArrayList;
 

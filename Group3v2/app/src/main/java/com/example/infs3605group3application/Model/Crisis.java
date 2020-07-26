@@ -1,4 +1,4 @@
-package com.example.grou3v2.Model;
+package com.example.infs3605group3application.Model;
 
 public class Crisis {
     private String crisisCode;
