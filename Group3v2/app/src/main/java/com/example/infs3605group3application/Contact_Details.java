@@ -1,4 +1,4 @@
-package com.example.grou3v2;
+package com.example.infs3605group3application;
 
 import android.os.Bundle;
 

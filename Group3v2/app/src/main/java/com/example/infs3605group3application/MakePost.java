@@ -1,4 +1,4 @@
-package com.example.grou3v2;
+package com.example.infs3605group3application;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,14 +11,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.grou3v2.Model.Author;
-import com.example.grou3v2.Model.Crisis;
-import com.example.grou3v2.Model.Post;
+import com.example.infs3605group3application.Model.Post;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.functions.FirebaseFunctions;
 
-import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

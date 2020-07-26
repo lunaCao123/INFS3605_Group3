@@ -1,4 +1,4 @@
-package com.example.grou3v2.Fragments;
+package com.example.infs3605group3application.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.grou3v2.R;
+
+import com.example.infs3605group3application.R;
 
 public class FAQsFragment extends Fragment {
     @Override
