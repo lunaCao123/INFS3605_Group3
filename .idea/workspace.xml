@@ -10,9 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="444ee924-c3f3-4cd3-9d3a-71a13b9ef4eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -317,12 +314,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1358" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594169918735" />
-    <state x="394" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1595329397652">
+    <state x="394" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1595467951620">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="394" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1594168743681" />
     <state x="394" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1594190076346" />
-    <state x="394" y="235" key="com.intellij.ide.util.TipDialog/0.23.1440.800@0.23.1440.800" timestamp="1595329397652" />
+    <state x="394" y="235" key="com.intellij.ide.util.TipDialog/0.23.1440.800@0.23.1440.800" timestamp="1595467951620" />
     <state x="394" y="236" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1595328592948" />
   </component>
 </project>
