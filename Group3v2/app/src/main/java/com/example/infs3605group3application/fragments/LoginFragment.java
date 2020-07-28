@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.infs3605group3application.AnswerQuestions;
 import com.example.infs3605group3application.MakePost;
 import com.example.infs3605group3application.R;
 
@@ -33,7 +34,7 @@ public class LoginFragment extends Fragment {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), MakePost.class);
+                Intent intent = new Intent(getActivity(), AnswerQuestions.class);
                 startActivity(intent);
             }
         });

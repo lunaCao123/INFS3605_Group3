@@ -129,6 +129,7 @@
         android:textSize="14dp" />
 
     <Button
+        android:id="@+id/bt_send"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"

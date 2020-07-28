@@ -30,9 +30,11 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Calendar;
 
 public class ContactFragment extends Fragment {
 
@@ -42,6 +44,7 @@ public class ContactFragment extends Fragment {
     private EditText EtContactInfo;
     private EditText EtMessageQ;
     private String type;
+    private String pubDate;
     private ProgressDialog progressDialog;
 
 
@@ -57,10 +60,12 @@ public class ContactFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         progressDialog = new ProgressDialog(getActivity());
-        spType = rootView.findViewById(R.id.sp_type);
+        spType = rootView.findViewById(R.id.Db_CrisisTypeQ);
         EtSubject = rootView.findViewById(R.id.Et_Subject);
         EtContactInfo = rootView.findViewById(R.id.Et_ContactInfo);
         EtMessageQ = rootView.findViewById(R.id.Et_MessageQ);
+        Date pubdate = Calendar.getInstance().getTime();
+        pubDate = pubdate.toString();
         Button btSend = rootView.findViewById(R.id.bt_send);
         btSend.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -135,6 +140,7 @@ public class ContactFragment extends Fragment {
         crisis.put("description", message);
         crisis.put("subject", subject);
         crisis.put("category", type);
+        crisis.put("date", pubDate);
         crisis.put("contactInfo", contactInfo);
         db.collection("crisis")
                 .add(crisis)

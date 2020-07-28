@@ -69,11 +69,20 @@
 
         <Spinner
             android:id="@+id/Db_CrisisType"
-            android:layout_width="88dp"
+            android:layout_width="171dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/authorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/post_type_label"
@@ -87,7 +96,7 @@
 
         <Spinner
             android:id="@+id/Db_PostType"
-            android:layout_width="96dp"
+            android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -95,10 +104,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/authorLayout"
+        android:id="@+id/pubDateLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center_vertical"
+        android:layout_height="43dp"
         android:orientation="horizontal">
 
         <TextView
@@ -121,31 +129,6 @@
             android:paddingLeft="10dp"
             android:textColor="#000000"
             android:textSize="14dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/pubDateLayout"
-        android:layout_width="match_parent"
-        android:layout_height="43dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/pubDateTv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_weight="1"
-            android:text="Publish Date"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/Db_pubDate"
-            android:layout_width="141dp"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="date" />
     </LinearLayout>
 
     <TextView

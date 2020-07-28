@@ -17,9 +17,11 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.functions.FirebaseFunctions;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Calendar;
 
 public class MakePost extends AppCompatActivity {
     private FirebaseFunctions mFunctions;
@@ -29,7 +31,6 @@ public class MakePost extends AppCompatActivity {
     private Spinner PostType;
     private TextView FileName;
     private EditText Author;
-    private EditText PubDate;
     private String title;
     private String message;
     private String crisisType;
@@ -58,8 +59,8 @@ public class MakePost extends AppCompatActivity {
         postType = PostType.getSelectedItem().toString();
         Author = findViewById(R.id.Et_Author);
         author = Author.getText().toString();
-        PubDate = findViewById(R.id.Db_pubDate);
-        pubDate = PubDate.getText().toString();
+        Date pubdate = Calendar.getInstance().getTime();
+        pubDate = pubdate.toString();
         Message = findViewById(R.id.Et_Message);
         message = Message.getText().toString();
         ChooseFiles = findViewById(R.id.Bt_ChooseFiles);
@@ -74,11 +75,11 @@ public class MakePost extends AppCompatActivity {
         });
 
         //Set up listener that submits form to database
-        makePostButton = new Button(this);
+        makePostButton = findViewById(R.id.Bt_Post);
         makePostButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                writeNewPost(1, author, pubDate, title, message, crisisType, postType);
+                writeNewPost(2, author, pubDate, title, message, crisisType, postType);
             }
         });
     }
