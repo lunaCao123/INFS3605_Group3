@@ -29,15 +29,24 @@ public class LoginFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_login_page, container, false);
         login = view.findViewById(R.id.loginButton);
-
-        //if password verification is correct
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), AnswerQuestions.class);
+                Intent intent = new Intent(getActivity(), MakePostFragment.class);
                 startActivity(intent);
             }
         });
+
+        //if password verification is correct
+//        login.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getActivity(), AnswerQuestions.class);
+//                startActivity(intent);
+//            }
+//        });
         return view;
     }
+
+
 }
