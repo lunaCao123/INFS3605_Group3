@@ -1,6 +1,7 @@
 package com.example.infs3605group3application.fragments;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -19,6 +20,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 
+import com.example.infs3605group3application.Contact_Details;
+import com.example.infs3605group3application.MakePost;
 import com.example.infs3605group3application.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -42,6 +45,7 @@ public class ContactFragment extends Fragment {
     private EditText EtContactInfo;
     private EditText EtMessageQ;
     private String type;
+    private TextView redirect;
     private ProgressDialog progressDialog;
 
 
@@ -61,6 +65,14 @@ public class ContactFragment extends Fragment {
         EtSubject = rootView.findViewById(R.id.Et_Subject);
         EtContactInfo = rootView.findViewById(R.id.Et_ContactInfo);
         EtMessageQ = rootView.findViewById(R.id.Et_MessageQ);
+        redirect = rootView.findViewById(R.id.tv_redirect);
+        redirect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Contact_Details.class);
+                startActivity(intent);
+            }
+        });
         Button btSend = rootView.findViewById(R.id.bt_send);
         btSend.setOnClickListener(new View.OnClickListener() {
             @Override

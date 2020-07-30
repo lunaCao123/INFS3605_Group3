@@ -37,6 +37,8 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,7 +51,6 @@ public class MakePost extends AppCompatActivity {
     private Spinner PostType;
     private TextView FileName;
     private EditText Author;
-    private EditText PubDate;
 
     private Button makePostButton;
     private Button ChooseFiles;
@@ -77,8 +78,7 @@ public class MakePost extends AppCompatActivity {
 
         Author = findViewById(R.id.Et_Author);
         ivImg = findViewById(R.id.iv_img);
-
-        PubDate = findViewById(R.id.Db_pubDate);
+        final Date pubdate = Calendar.getInstance().getTime();
 
         Message = findViewById(R.id.Et_Message);
 
@@ -114,7 +114,7 @@ public class MakePost extends AppCompatActivity {
                 String  postType = PostType.getSelectedItem().toString();
                 String  crisisType = CrisisType.getSelectedItem().toString();
                 String author = Author.getText().toString();
-                String pubDate = PubDate.getText().toString();
+                String pubDate = pubdate.toString();
                 String  message = Message.getText().toString();
                 if (TextUtils.isEmpty(imageUrl)){
                     Toast.makeText(MakePost.this,"Please upload a picture",Toast.LENGTH_SHORT).show();
@@ -208,6 +208,7 @@ public class MakePost extends AppCompatActivity {
         List<String> crisistype = new ArrayList<String>();
         crisistype.add("COVID-19");
         crisistype.add("Bushfires");
+        crisistype.add("Droughts");
         crisistype.add("Floods");
         crisistype.add("Riots");
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, crisistype);

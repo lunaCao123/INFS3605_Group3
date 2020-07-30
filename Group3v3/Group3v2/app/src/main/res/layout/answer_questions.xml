@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1998ff"
+        android:gravity="center"
+        android:text="QUESTIONS INBOX"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:text="Contact Info"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Tv_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:text="Date"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/Contact" />
+
+            <TextView
+                android:id="@+id/Tv_Subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:layout_marginTop="6dp"
+                app:layout_constraintStart_toStartOf="@+id/Contact"
+                app:layout_constraintTop_toBottomOf="@+id/Tv_CrisisType2" />
+
+            <TextView
+                android:id="@+id/Tv_CrisisType2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crisis Type"
+                android:layout_marginTop="6dp"
+                app:layout_constraintStart_toStartOf="@+id/Contact"
+                app:layout_constraintTop_toBottomOf="@+id/Contact" />
+
+            <TextView
+                android:id="@+id/Tv_Question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Question"
+                app:layout_constraintStart_toStartOf="@+id/Tv_Subject"
+                app:layout_constraintTop_toBottomOf="@+id/Tv_Subject" />
+
+            <EditText
+                android:id="@+id/Et_AnswerQ"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape"
+                android:gravity="top|left"
+                android:hint="ENTER RESPONSE HERE"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#d1d1d1"
+                android:textSize="12dp"
+                app:layout_constraintStart_toStartOf="@+id/Tv_Question2"
+                app:layout_constraintTop_toBottomOf="@+id/Tv_Question2" />
+
+            <CheckBox
+                android:id="@+id/Cb_FAQs"
+                android:layout_width="125dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="16dp"
+                android:text="Post to FAQs"
+                app:layout_constraintEnd_toEndOf="@+id/Tv_Date"
+                app:layout_constraintTop_toBottomOf="@+id/Et_AnswerQ" />
+
+            <Button
+                android:id="@+id/Bt_Respond"
+                android:layout_width="111dp"
+                android:layout_height="42dp"
+                android:text="Respond"
+                app:layout_constraintStart_toStartOf="@+id/Tv_Question2"
+                app:layout_constraintTop_toTopOf="@+id/Cb_FAQs" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
