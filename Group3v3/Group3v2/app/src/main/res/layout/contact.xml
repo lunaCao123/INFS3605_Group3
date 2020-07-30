@@ -73,13 +73,14 @@
         android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp">
+
         <TextView
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
-            android:text="Contact Details"
-            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Contact Email"
             android:textColor="#000000"
-            android:layout_height="wrap_content"/>
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/Et_ContactInfo"
@@ -116,7 +117,6 @@
         android:textSize="12dp" />
 
     <TextView
-        android:id="@+id/Tv_redirect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
