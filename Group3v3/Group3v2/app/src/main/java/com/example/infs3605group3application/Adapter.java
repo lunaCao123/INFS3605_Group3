@@ -48,7 +48,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.CrisisViewHolder> {
             type = v.findViewById(R.id.Tv_CrisisType2);
             subject = v.findViewById(R.id.Tv_Subject);
             question = v.findViewById(R.id.Tv_Question2);
-            date = v.findViewById(R.id.Tv_Date)
+            date = v.findViewById(R.id.Tv_Date);
         }
 
         @Override
@@ -83,7 +83,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.CrisisViewHolder> {
                 });
         Crisis crisis = mCrisis.get(position);
         holder.email.setText(mCrisis.add("contactInfo"));
-        holder.type.setText(mCrisis.add("category"));
         holder.subject.setText(mCrisis.add("subject"));
         holder.question.setText(mCrisis.add("description");
         holder.date.setText((mCrisis.add("date")));

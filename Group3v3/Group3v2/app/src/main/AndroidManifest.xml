@@ -22,6 +22,8 @@
         </activity>
         <activity android:name= ".Contact_Details"></activity>
         <activity android:name= ".MakePost"></activity>
+        <activity android:name= ".AnswerQuestions"></activity>
+
     </application>
 
 </manifest>

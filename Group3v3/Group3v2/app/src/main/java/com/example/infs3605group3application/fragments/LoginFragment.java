@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.infs3605group3application.AnswerQuestions;
 import com.example.infs3605group3application.MakePost;
 import com.example.infs3605group3application.Model.Author;
 import com.example.infs3605group3application.R;
@@ -73,7 +74,7 @@ public class LoginFragment extends Fragment {
                                 author=   document.toObject(Author.class);
                             }
                             if (author!=null){
-                                Intent intent = new Intent(getActivity(), MakePost.class);
+                                Intent intent = new Intent(getActivity(), AnswerQuestions.class);
                                 startActivity(intent);
                             }else{
                                 Toast.makeText(getActivity(),"Incorrect account password",Toast.LENGTH_SHORT).show();
