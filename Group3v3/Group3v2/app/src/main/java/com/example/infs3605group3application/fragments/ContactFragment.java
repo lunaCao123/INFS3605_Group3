@@ -33,6 +33,8 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -126,6 +128,8 @@ public class ContactFragment extends Fragment {
         if (TextUtils.isEmpty(type)){
             return;
         }
+        final Date pubdate = Calendar.getInstance().getTime();
+        String Pubdate = pubdate.toString();
         String subject = EtSubject.getText().toString();
         String contactInfo = EtContactInfo.getText().toString();
         String message = EtMessageQ.getText().toString();
@@ -148,6 +152,7 @@ public class ContactFragment extends Fragment {
         crisis.put("subject", subject);
         crisis.put("category", type);
         crisis.put("contactInfo", contactInfo);
+        crisis.put("date", Pubdate);
         db.collection("crisis")
                 .add(crisis)
                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {

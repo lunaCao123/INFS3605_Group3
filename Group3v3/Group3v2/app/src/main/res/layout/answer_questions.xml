@@ -59,8 +59,8 @@
                 android:id="@+id/Tv_Subject"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Subject"
                 android:layout_marginTop="6dp"
+                android:text="Subject"
                 app:layout_constraintStart_toStartOf="@+id/Contact"
                 app:layout_constraintTop_toBottomOf="@+id/Tv_CrisisType2" />
 
@@ -68,8 +68,8 @@
                 android:id="@+id/Tv_CrisisType2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Crisis Type"
                 android:layout_marginTop="6dp"
+                android:text="Crisis Type"
                 app:layout_constraintStart_toStartOf="@+id/Contact"
                 app:layout_constraintTop_toBottomOf="@+id/Contact" />
 
