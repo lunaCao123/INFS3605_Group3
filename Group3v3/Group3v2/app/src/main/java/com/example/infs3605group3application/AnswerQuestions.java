@@ -49,6 +49,7 @@ public class AnswerQuestions extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private Crisis crisis;
     private CheckBox ck_check;
+    private EditText et_reply;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +62,7 @@ public class AnswerQuestions extends AppCompatActivity {
         EtContactInfo = findViewById(R.id.Et_ContactInfo);
         ck_check = findViewById(R.id.ck_check);
         EtMessageQ = findViewById(R.id.Et_MessageQ);
+        et_reply = findViewById(R.id.et_reply);
         spType.setText(crisis.getCategory());
         EtSubject.setText(crisis.getSubject());
         EtContactInfo.setText(crisis.getContactInfo());
@@ -81,6 +83,12 @@ public class AnswerQuestions extends AppCompatActivity {
             String subject = EtSubject.getText().toString();
             String contactInfo = EtContactInfo.getText().toString();
             String message = EtMessageQ.getText().toString();
+            String reply = et_reply.getText().toString();
+            if (TextUtils.isEmpty(reply)){
+                Toast.makeText(AnswerQuestions.this,"Reply can not empty",Toast.LENGTH_SHORT).show();
+                return;
+
+            }
             progressDialog.show();
             FirebaseFirestore db = FirebaseFirestore.getInstance();
             Map<String, Object> maps= new HashMap<>();
@@ -88,6 +96,7 @@ public class AnswerQuestions extends AppCompatActivity {
             maps.put("subject", subject);
             maps.put("category", crisis.getCategory());
             maps.put("contactInfo", contactInfo);
+            maps.put("reply", reply);
             db.collection("FAQS")
                     .add(maps)
                     .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {

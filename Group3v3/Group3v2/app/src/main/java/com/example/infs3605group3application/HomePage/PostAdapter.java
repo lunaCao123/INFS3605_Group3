@@ -37,11 +37,24 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
         holder.title.setText(posts.get(position).getTitle());
+        holder.crisisTypeText.setText(posts.get(position).getCrisisCode());
         holder.pubDate.setText(posts.get(position).getPubDate());
         if (!TextUtils.isEmpty(posts.get(position).getImageUrl())){
             Glide.with(context).load(posts.get(position).getImageUrl()).into(holder.postPhoto);
         }else{
-            holder.postPhoto.setImageResource(R.drawable.logo);
+            if (posts.get(position).getCrisisCode().equals("COVID-19")){
+                holder.postPhoto.setImageResource(R.drawable.pendmic);
+            }else if (posts.get(position).getCrisisCode().equals("Bushfires")){
+                holder.postPhoto.setImageResource(R.drawable.fire);
+            }else if (posts.get(position).getCrisisCode().equals("Droughts")){
+                holder.postPhoto.setImageResource(R.drawable.drought);
+            }else if (posts.get(position).getCrisisCode().equals("Floods")){
+                holder.postPhoto.setImageResource(R.drawable.floor);
+            }else if (posts.get(position).getCrisisCode().equals("Riots")){
+                holder.postPhoto.setImageResource(R.drawable.riots);
+            }else{
+                holder.postPhoto.setImageResource(R.drawable.logo);
+            }
         }
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,10 +82,11 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewHolder> 
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView title, pubDate;
+        TextView title, pubDate,crisisTypeText;
         ImageView postPhoto;
         public MyViewHolder(View itemView) {
             super(itemView);
+            crisisTypeText = (TextView) itemView.findViewById(R.id.crisisTypeText);
             title = (TextView) itemView.findViewById(R.id.title);
             pubDate = (TextView) itemView.findViewById(R.id.Db_pubDate);
             postPhoto = (ImageView) itemView.findViewById(R.id.postPhoto);

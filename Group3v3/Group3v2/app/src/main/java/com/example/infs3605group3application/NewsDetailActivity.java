@@ -46,7 +46,19 @@ public class NewsDetailActivity extends AppCompatActivity {
         if (!TextUtils.isEmpty(news.getImageUrl())){
             Glide.with(this).load(news.getImageUrl()).into(iv_logo);
         }else{
-            iv_logo.setImageResource(R.drawable.logo);
+            if (news.getCrisisCode().equals("COVID-19")){
+                iv_logo.setImageResource(R.drawable.pendmic);
+            }else if (news.getCrisisCode().equals("Bushfires")){
+                iv_logo.setImageResource(R.drawable.fire);
+            }else if (news.getCrisisCode().equals("Droughts")){
+                iv_logo.setImageResource(R.drawable.drought);
+            }else if (news.getCrisisCode().equals("Floods")){
+                iv_logo.setImageResource(R.drawable.floor);
+            }else if (news.getCrisisCode().equals("Riots")){
+                iv_logo.setImageResource(R.drawable.riots);
+            }else{
+                iv_logo.setImageResource(R.drawable.logo);
+            }
         }
         SharedPreferences sp = getSharedPreferences("info", Context.MODE_PRIVATE);
         boolean isLogin = sp.getBoolean("login", false);

@@ -44,7 +44,7 @@ public class CrisisActivity extends AppCompatActivity {
         adapter.setOnNewsItemClickListener(new CrisisAdapter.OnNewsItemClickListener() {
             @Override
             public void onClick(int position) {
-                Intent intent = new Intent(CrisisActivity.this,CrisisDetailActivity.class);
+                Intent intent = new Intent(CrisisActivity.this,AnswerQuestions.class);
 
                 intent.putExtra("crisis",list.get(position));
                 startActivity(intent);

@@ -1,5 +1,6 @@
 package com.example.infs3605group3application.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +15,10 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.example.infs3605group3application.HomePage.FAQSAdapter;
 import com.example.infs3605group3application.Model.FAQS;
+import com.example.infs3605group3application.Model.Post;
+import com.example.infs3605group3application.NewsDetailActivity;
 import com.example.infs3605group3application.R;
+import com.example.infs3605group3application.RespondQuestions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -42,7 +46,10 @@ public class FAQsFragment extends Fragment {
         adapter.setOnNewsItemClickListener(new FAQSAdapter.OnNewsItemClickListener() {
             @Override
             public void onClick(int position) {
-
+                FAQS news = list.get(position);
+                Intent intent =  new Intent(getActivity(), RespondQuestions.class);
+                intent.putExtra("FAQS",news);
+                startActivity(intent);
             }
         });
         recyclerView.setAdapter(adapter);
