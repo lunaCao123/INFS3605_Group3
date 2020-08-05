@@ -15,7 +15,7 @@
         android:layout_height="50dp"
         android:background="#1998ff"
         android:gravity="center"
-        android:text="QUESTIONS INBOX"
+        android:text="QUESTIONS RESPONSE"
         android:textColor="#ffffff"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
