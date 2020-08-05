@@ -10,7 +10,7 @@
         android:layout_height="50dp"
         android:background="#1998ff"
         android:gravity="center"
-        android:text="CRISIS"
+        android:text="QUESTION"
         android:textColor="#ffffff"
         android:textSize="16dp" />
 
