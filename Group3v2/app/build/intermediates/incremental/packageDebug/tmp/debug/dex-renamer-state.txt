@@ -1,0 +1,4 @@
+#Thu Jul 23 10:45:54 AEST 2020
+base.0=/Users/joannadamianakis/Desktop/INFS3605/INFS3605_Group3/Group3v2/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
