@@ -89,7 +89,7 @@ public class NewsFragment extends Fragment {
                 return true;
             }
 
-            //当搜索内容改变时触发该方法
+
             @Override
             public boolean onQueryTextChange(String newText) {
                 return false;
