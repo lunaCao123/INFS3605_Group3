@@ -8,6 +8,15 @@ public class FAQS implements Serializable {
     private String contactInfo;
     private String description;
     private String reply;
+    private String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public String getReply() {
         return reply;

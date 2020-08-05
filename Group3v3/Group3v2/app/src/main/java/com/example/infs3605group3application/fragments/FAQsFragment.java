@@ -53,7 +53,7 @@ public class FAQsFragment extends Fragment {
             }
         });
         recyclerView.setAdapter(adapter);
-
+        initData();
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -76,6 +76,7 @@ public class FAQsFragment extends Fragment {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 FAQS post = document.toObject(FAQS.class);
+                                post.setKey(document.getId());
                                 list.add(post);
                             }
                             adapter.notifyDataSetChanged();

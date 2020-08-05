@@ -109,7 +109,15 @@
         android:textColorHint="#d1d1d1"
         android:textSize="12dp" />
 
-
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/bt_delete"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textColor="@color/white"
+        android:text="Delete"
+        android:background="#fc6860"/>
 
 
 </LinearLayout>

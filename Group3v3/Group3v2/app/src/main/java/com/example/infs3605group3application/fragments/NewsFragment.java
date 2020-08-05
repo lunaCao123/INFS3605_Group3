@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -86,6 +87,9 @@ public class NewsFragment extends Fragment {
             //当搜索内容改变时触发该方法
             @Override
             public boolean onQueryTextChange(String newText) {
+                if (TextUtils.isEmpty(newText)){
+                    filter("");
+                }
                 return false;
             }
         });
@@ -164,7 +168,7 @@ public class NewsFragment extends Fragment {
                                 if (TextUtils.isEmpty(key)){
                                     list.add(post);
                                 }else {
-                                    if (post.getTitle().contains(key)){
+                                    if (post.getTitle().toLowerCase().contains(key.toLowerCase())){
                                         list.add(post);
                                     }
                                 }
