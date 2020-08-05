@@ -1,6 +1,7 @@
 package com.example.infs3605group3application.HomePage;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,10 +35,23 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
         holder.title.setText(posts.get(position).getTitle());
         holder.pubDate.setText(posts.get(position).getPubDate());
-        Glide.with(context).load(posts.get(position).getImageUrl()).into(holder.postPhoto);
+        if (!TextUtils.isEmpty(posts.get(position).getImageUrl())){
+            Glide.with(context).load(posts.get(position).getImageUrl()).into(holder.postPhoto);
+        }else{
+            holder.postPhoto.setImageResource(R.drawable.logo);
+        }
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (onNewsItemClickListener!=null){
+                    onNewsItemClickListener.onClick(position);
+                }
+            }
+        });
+
     }
 
     @Override
@@ -45,6 +59,14 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewHolder> 
         return posts.size();
     }
 
+    OnNewsItemClickListener onNewsItemClickListener;
+    public interface OnNewsItemClickListener{
+        void onClick(int position);
+    }
+
+    public void setOnNewsItemClickListener(OnNewsItemClickListener onNewsItemClickListener) {
+        this.onNewsItemClickListener = onNewsItemClickListener;
+    }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
         TextView title, pubDate;

@@ -3,16 +3,21 @@ package com.example.infs3605group3application;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Button;
 
 import com.example.infs3605group3application.fragments.ContactFragment;
 import com.example.infs3605group3application.fragments.FAQsFragment;
-import com.example.infs3605group3application.fragments.CrisisFragment;
-import com.example.infs3605group3application.fragments.LoginFragment;
+import com.example.infs3605group3application.fragments.MineFragment;
 import com.example.infs3605group3application.fragments.NewsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DatabaseReference;
@@ -21,13 +26,13 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
     private Button tester;
     private Button Contact;
-    private LoginFragment loginfragment;
 
     BottomNavigationView bottomNavigation;
     private FAQsFragment fAQsFragment;
-    private CrisisFragment crisisFragment;
+    private Fragment currentFragment;
     private NewsFragment newsFragment;
     private ContactFragment contactFragment;
+    private MineFragment mineFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,45 +44,48 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         bottomNavigation = findViewById(R.id.nav_bar);
-
+        if (mineFragment == null) {
+            mineFragment = new MineFragment();;
+        }
+        if (newsFragment == null) {
+            newsFragment = new NewsFragment();;
+        }
+        if (contactFragment == null) {
+            contactFragment = new ContactFragment();;
+        }
+        if (fAQsFragment == null) {
+            fAQsFragment = new FAQsFragment();;
+        }
         bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
 
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-                //TODO: Get MakePost onto the menu bar
-                //TODO: get rid of Contact form from menu bar
                 switch (item.getItemId()) {
                     case R.id.login:
-                        if (loginfragment == null) {
-                            loginfragment = new LoginFragment();;
+                        SharedPreferences sp = getSharedPreferences("info", Context.MODE_PRIVATE);
+                        boolean isLogin = sp.getBoolean("login", false);
+                        if (!isLogin){
+                            toLogin();
+
+                        }else{
+                            switchFragment(mineFragment);
                         }
-                        startFragmentPage(loginfragment);
+
                         return true;
-                    case R.id.crisis:
-                        if (crisisFragment == null) {
-                            crisisFragment = new CrisisFragment();;
-                        }
-                        startFragmentPage(crisisFragment);
-                        return true;
+
                     case R.id.news:
-                        if (newsFragment == null) {
-                            newsFragment = new NewsFragment();;
-                        }
-                        startFragmentPage(newsFragment);
+
+                        switchFragment(newsFragment);
                         return true;
                     case R.id.contact:
-                        if (contactFragment == null) {
-                            contactFragment = new ContactFragment();;
-                        }
-                        startFragmentPage(contactFragment);
+
+                        switchFragment(contactFragment);
                         return true;
                     case R.id.FAQs:
-                        if (fAQsFragment == null) {
-                            fAQsFragment = new FAQsFragment();;
-                        }
-                        startFragmentPage(fAQsFragment);
+
+                        switchFragment(fAQsFragment);
                         return true;
                     default:
                         return false;
@@ -87,36 +95,75 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        if (savedInstanceState == null) {
-            bottomNavigation.setSelectedItemId(R.id.crisis);
-            startFragmentPage(new CrisisFragment());
+        switchFragment(newsFragment);
+
+
+    }
+
+    public  void toLoginOut() {
+        new AlertDialog.Builder(this)
+                .setTitle("Alert")
+                .setMessage("Logout")
+                .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                        SharedPreferences sp =getSharedPreferences("info",Context. MODE_PRIVATE);
+                        SharedPreferences.Editor edit = sp.edit();
+                        edit.putString("name","");
+                        edit.putBoolean("login",false);
+                        edit.apply();
+                        bottomNavigation.setSelectedItemId(bottomNavigation.getMenu().getItem(0).getItemId());
+                    }
+                }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        }).create().show();
+    }
+    private void toLogin() {
+
+        new AlertDialog.Builder(this)
+                .setTitle("Alert")
+                .setMessage("Please log in first")
+                .setPositiveButton("Login", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                        bottomNavigation.setSelectedItemId(bottomNavigation.getMenu().getItem(0).getItemId());
+                        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                    }
+                }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                bottomNavigation.setSelectedItemId(bottomNavigation.getMenu().getItem(0).getItemId());
+                dialog.dismiss();
+            }
+        }).create().show();
+    }
+
+    private void switchFragment(Fragment fragment) {
+        FragmentManager manager = getSupportFragmentManager();
+        FragmentTransaction transaction = manager.beginTransaction();
+        hideFragments( transaction);
+        if (!fragment.isAdded()) {
+            transaction.add(R.id.container, fragment, fragment.getClass().getName());
         }
-
-
-//        tester = findViewById(R.id.MakePost);
-//        tester.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getApplicationContext(), MakePost.class);
-//                startActivity(intent);
-//            }
-//        });
-//        Contact = findViewById(R.id.Contact);
-//        Contact.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getApplicationContext(), Contact.class);
-//                startActivity(intent);
-//            }
-//        });
+        transaction.show(fragment).commit();
     }
-
-
-    public void startFragmentPage(Fragment fragment) {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction(); // Start transaction/transition manager
-        transaction.replace(R.id.container, fragment); // replace current container fragment with another fragment
-        transaction.addToBackStack(null);
-        transaction.commit(); // Do it
+    private void hideFragments( FragmentTransaction transaction) {
+        if (mineFragment != null && mineFragment.isVisible()) {
+            transaction.hide(mineFragment);
+        }
+        if (newsFragment != null && newsFragment.isVisible()) {
+            transaction.hide(newsFragment);
+        }
+        if (contactFragment != null && contactFragment.isVisible()) {
+            transaction.hide(contactFragment);
+        }
+        if (fAQsFragment != null && fAQsFragment.isVisible()) {
+            transaction.hide(fAQsFragment);
+        }
     }
-
 }

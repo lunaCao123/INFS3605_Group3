@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:text="Detail"/>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedscrollview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+
+               >
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:scaleType="centerCrop"
+                        android:src="#F2F3F5"
+                        android:transitionName="icon" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tv_title"
+                           android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dp_16"
+                            android:layout_marginEnd="@dimen/dp_16"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            tools:text="title" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp"
+                        android:background="#F2F3F5">
+
+                    </View>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:paddingTop="20dp"
+                        android:text="Info"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_16" />
+
+                    <RelativeLayout
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:text="Crisis Type"
+                            android:textColor="#666666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/Tv_CrisisType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp_16"
+                            android:textColor="#333333"
+                            android:textSize="14sp"
+                            tools:text="Crisis Type" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:text="Post Type"
+                            android:textColor="#666666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_postType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp_16"
+                            android:textColor="#333333"
+                            android:textSize="14sp"
+                            tools:text="Crisis Type" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:text="Author"
+                            android:textColor="#666666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_auth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp_16"
+                            android:textColor="#333333"
+                            android:textSize="14sp"
+                            tools:text="Crisis Type" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                       >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:text="Date"
+                            android:textColor="#666666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp_16"
+                            android:textColor="#333333"
+                            android:textSize="14sp"
+                            tools:text="Crisis Type" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:paddingTop="20dp"
+                        android:text="Message"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_16" />
+                    <TextView
+                        android:id="@+id/tv_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:textColor="#333333"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        tools:text="Crisis Type" />
+
+
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textColor="@color/white"
+        android:text="Delete"
+        android:background="#fc6860"/>
+
+</LinearLayout>

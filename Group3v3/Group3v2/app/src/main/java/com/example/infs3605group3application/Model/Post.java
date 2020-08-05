@@ -4,10 +4,12 @@ package com.example.infs3605group3application.Model;
 
 import com.google.firebase.database.Exclude;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Post {
+public class Post implements Serializable {
+    private String key;
     private int postNumber;
     private String authorId;
     private String pubDate;
@@ -17,6 +19,13 @@ public class Post {
     private String urgency;
     private String imageUrl;
 
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public String getImageUrl() {
         return imageUrl;

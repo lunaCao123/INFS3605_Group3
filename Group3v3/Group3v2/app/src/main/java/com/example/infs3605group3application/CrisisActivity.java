@@ -1,5 +1,6 @@
-package com.example.infs3605group3application.fragments;
+package com.example.infs3605group3application;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +8,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -25,7 +27,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-public class CrisisFragment extends Fragment {
+public class CrisisActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ArrayList<Crisis> list;
     private CrisisAdapter adapter;
@@ -33,16 +35,21 @@ public class CrisisFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-    }
 
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_crisis_page, container, false);
-        recyclerView = view.findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager( new LinearLayoutManager(getActivity()));
+        setContentView(R.layout.fragment_crisis_page);
+        recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager( new LinearLayoutManager(this));
         list = new ArrayList<Crisis>();
-        adapter = new CrisisAdapter(getActivity(),list);
+        adapter = new CrisisAdapter(this,list);
+        adapter.setOnNewsItemClickListener(new CrisisAdapter.OnNewsItemClickListener() {
+            @Override
+            public void onClick(int position) {
+                Intent intent = new Intent(CrisisActivity.this,CrisisDetailActivity.class);
+
+                intent.putExtra("crisis",list.get(position));
+                startActivity(intent);
+            }
+        });
         recyclerView.setAdapter(adapter);
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         db.collection("crisis")
@@ -60,7 +67,7 @@ public class CrisisFragment extends Fragment {
                         }
                     }
                 });
-
-        return view;
     }
+
+
 }

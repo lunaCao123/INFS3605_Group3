@@ -2,7 +2,9 @@ package com.example.infs3605group3application;
 
 import android.Manifest;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -50,7 +52,7 @@ public class MakePost extends AppCompatActivity {
     private Spinner CrisisType;
     private Spinner PostType;
     private TextView FileName;
-    private EditText Author;
+    private TextView Author;
 
     private Button makePostButton;
     private Button ChooseFiles;
@@ -64,6 +66,9 @@ public class MakePost extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.make_post);
+        SharedPreferences sp = getSharedPreferences("info", Context.MODE_PRIVATE);
+        String name =  sp.getString("name", "");
+
         mFunctions = FirebaseFunctions.getInstance();
         progressDialog = new ProgressDialog(this);
         //Retrieve data from form
@@ -77,6 +82,7 @@ public class MakePost extends AppCompatActivity {
         PostType = findViewById(R.id.Db_PostType);
 
         Author = findViewById(R.id.Et_Author);
+        Author.setText(name);
         ivImg = findViewById(R.id.iv_img);
         final Date pubdate = Calendar.getInstance().getTime();
 
@@ -117,8 +123,7 @@ public class MakePost extends AppCompatActivity {
                 String pubDate = pubdate.toString();
                 String  message = Message.getText().toString();
                 if (TextUtils.isEmpty(imageUrl)){
-                    Toast.makeText(MakePost.this,"Please upload a picture",Toast.LENGTH_SHORT).show();
-                    return;
+                    imageUrl="";
                 }
                 writeNewPost(1, author, pubDate, title, message, crisisType, postType);
             }

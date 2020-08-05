@@ -20,56 +20,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.cardview.widget.CardView
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/textView13">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-            <TextView
-                android:id="@+id/Tv_CrisisType"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginLeft="32dp"
-                android:layout_marginTop="16dp"
-                android:text="Crisis Type"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="32dp"
-                android:layout_marginRight="32dp"
-                android:text="Date"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/Tv_CrisisType" />
-
-            <TextView
-                android:id="@+id/Tv_Question"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="Question"
-                app:layout_constraintStart_toStartOf="@+id/Tv_CrisisType"
-                app:layout_constraintTop_toBottomOf="@+id/Tv_CrisisType" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:layout_marginBottom="8dp"
-                android:text="Response"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/Tv_Question"
-                app:layout_constraintTop_toBottomOf="@+id/Tv_Question" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

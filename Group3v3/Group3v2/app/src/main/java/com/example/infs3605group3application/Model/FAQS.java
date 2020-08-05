@@ -2,7 +2,7 @@ package com.example.infs3605group3application.Model;
 
 import java.io.Serializable;
 
-public class Crisis implements Serializable {
+public class FAQS implements Serializable {
     private String subject;
     private String category;
     private String contactInfo;
